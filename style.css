@@ -1,0 +1,64 @@
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+.offre {
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: hsl(228, 45%, 44%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.leftSide {
+    width: 40%;
+    padding-right: 5%;
+    color: white;
+}
+
+.rightSide {
+    width: 40%;
+}
+
+form {
+    border: 1px solid black;
+    height: 80%;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+input {
+    margin-bottom: 5% !important;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.claim {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 3%;
+}
+
+p {
+    font-size: small;
+    margin-left: 4%;
+}
+
+p>a {
+    text-decoration: none;
+    color: rgb(255, 0, 43);
+}
